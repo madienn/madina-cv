@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact – Madina Suleimenova-Peleman</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f2f4f7;
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: 4rem auto;
+      background: #ffffff;
+      padding: 2rem 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+    }
+    .contact-form h2 {
+      color: #1e3a8a;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+    .form-control:focus {
+      border-color: #1e3a8a;
+      box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.25);
+    }
+    .btn-primary {
+      background-color: #1e3a8a;
+      border-color: #1e3a8a;
+    }
+    .btn-primary:hover {
+      background-color: #3b82f6;
+      border-color: #3b82f6;
+    }
+    .alt-contact {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+    .alt-contact a {
+      color: #1e3a8a;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+     <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-light shadow-sm navbar-main">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <!-- Left-aligned nav links -->
+      <ul class="navbar-nav mb-2 mb-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item mx-4 nav-item-main">
+          <a class="nav-link is-active" aria-current="page" href="index.html" active-color="#ff5e5e">CV</a>
+        </li>
+        <li class="nav-item dropdown mx-4 nav-item-main">
+          <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            My Portfolio
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="portfolioDropdown">
+            <li><a class="dropdown-item" href="fm.html">Financial Modelling</a></li>
+            <li><a class="dropdown-item" href="excel.html">Excel VBA and Power Query</a></li>
+            <li><a class="dropdown-item" href="bi.html">Power BI</a></li>
+            <li><a class="dropdown-item" href="web.html">HTML</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="misc.html">Miscellaneous</a></li>
+          </ul>
+        </li>
+        <li class="nav-item mx-4 nav-item-main">
+          <a class="nav-link" href="recommendations.html">Recommendations</a>
+        </li>
+        <li class="nav-item mx-4 nav-item-main">
+          <a class="nav-link" aria-current="page" href="ai.html">Smart Screening</a>
+        </li>
+        <li class="nav-item mx-4 nav-item-main">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+<div class="row">    
+    <div class="col-sm-6 mb-3 mb-sm-0">    
+  <div class="contact-form">
+    <h2>Contact Me</h2>
+<form action="https://formsubmit.co/madina.peleman@gmail.com" method="POST">
+  <!-- fields -->
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" name="Name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" name="Email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea class="form-control" id="message" name="Message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Send Message</button>
+    </form>
+
+    <div class="alt-contact">
+      Or message me via <a href="https://wa.me/33666045029" target="_blank">WhatsApp</a>
+    </div>
+          <div class="mb-3">
+  <label for="meetingDate" class="form-label">Preferred Meeting Date</label>
+  <input type="date" class="form-control" id="meetingDate" name="Meeting Date" required>
+</div>
+  </div>
+</div>
+      <div class="col-sm-6 mb-3 mt-3">
+    <div class="card shadow">
+      <div class="card-body">
+       <div class="calendar mt-1">
+  <iframe src="https://calendar.google.com/calendar/embed?src=ya.madina.suleimenova%40gmail.com&ctz=Europe%2FParis" style="border: 0" width="675" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+<div class="alt-contact mt-2 text-center">
+  Prefer to schedule a meeting directly?
+  <br />
+  👉 <!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2K_q7WNhiIFVTOwXmMyr5d_n403az3EhRdc0TzC1VDJy1q0EVc74cu9UgHUfkJLwXIAHx7gH49?gv=true',
+      color: '#3F51B5',
+      label: 'Book an appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->  
+  <br />
+  👉 <a href="https://outlook.office.com/calendar/0/deeplink/compose?subject=Meeting+with+Madina&body=Looking+forward+to+connecting!&startdt=2025-06-20T10:00:00&enddt=2025-06-20T10:30:00&location=Online" target="_blank">Book via Outlook</a>
+</div>
+</div>
+          
+          
+      </div>
+    </div>
+  </div>
+
+
+
+    <footer class="footer mt-5 py-4 bg-light border-top">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+
+      <!-- Left: Name & Copyright -->
+      <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+        <strong>Madina Suleimenova-Peleman</strong><br>
+        © 2025 All rights reserved
+      </div>
+
+      <!-- Center: Links -->
+      <div class="col-md-4 d-flex justify-content-center flex-wrap gap-3 text-muted small">
+        <a href="#" class="footer-link">About</a>
+        <a href="#" class="footer-link">Privacy</a>
+        <a href="#" class="footer-link">Terms</a>
+        <a href="#" class="footer-link">Contact</a>
+      </div>
+
+      <!-- Right: Language & Social -->
+      <div class="col-md-4 text-center text-md-end">
+        <div class="mb-2">
+          <select class="form-select d-inline w-auto me-2" style="font-size: 0.9rem;">
+            <option selected>English</option>
+            <option>French</option>
+            <option>German</option>
+            <option>Russian</option>
+          </select>
+          <select class="form-select d-inline w-auto" style="font-size: 0.9rem;">
+            <option selected>€ EUR</option>
+            <option>$ USD</option>
+            <option>₸ KZT</option>
+          </select>
+        </div>
+        <div class="footer-icons mt-2">
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="me-2">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://wa.me/33666045029" target="_blank" class="me-2">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a href="https://github.com/yourprofile" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

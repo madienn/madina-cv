@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Madina Suleimenova-Peleman</title>
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap 5.3 Java -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+     <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-light shadow-sm navbar-main">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <!-- Left-aligned nav links -->
+      <ul class="navbar-nav mb-2 mb-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item mx-4 nav-item-main">
+          <a class="nav-link is-active" aria-current="page" href="index.html" active-color="#ff5e5e">CV</a>
+        </li>
+        <li class="nav-item dropdown mx-4 nav-item-main">
+          <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            My Portfolio
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="portfolioDropdown">
+            <li><a class="dropdown-item" href="fm.html">Financial Modelling</a></li>
+            <li><a class="dropdown-item" href="excel.html">Excel VBA and Power Query</a></li>
+            <li><a class="dropdown-item" href="bi.html">Power BI</a></li>
+            <li><a class="dropdown-item" href="web.html">HTML</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="misc.html">Miscellaneous</a></li>
+          </ul>
+        </li>
+        <li class="nav-item mx-4 nav-item-main">
+          <a class="nav-link" href="recommendations.html">Recommendations</a>
+        </li>
+        <li class="nav-item mx-4 nav-item-main">
+          <a class="nav-link" aria-current="page" href="ai.html">Smart Screening</a>
+        </li>
+        <li class="nav-item mx-4 nav-item-main">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Dashboard??? -->
+
+    
+    
+  <div class="dashboard">
+    <aside class="sidebar">
+        <div class="card shadow" style="width: 20rem;">
+            <img src="assets/madina-profile.jpeg" alt="Madina" class="profile-pic"/>
+          <div class="card-body">
+            <h5 class="card-title">Madina Suleimenova-Peleman</h5>
+            <p class="card-text">"Connecting numbers, cultures, and ideas — globally"</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class="summary">PhD-qualified financial professional with 7+ years in cross-border trade, taxation, and data analytics.</p>
+      <button class="profile-btn">Connect</button>
+    
+    <li class="list-group-item"><a href="mailto:m.suleimenova@aol.com">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill m-2 button-icon" viewBox="0 0 16 16">
+  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+</svg></a>
+    <a href="https://linkedin.com/in/m-suleimen"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin m-2 button-icon" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+</svg></a>
+    <a href="https://wa.me/33666045029"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp m-2 button-icon" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+</svg></a>
+    <a href="assets/Madina_Suleimenova-Peleman_CV_ENG.pdf" download><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill m-2 button-icon" viewBox="0 0 16 16">
+  <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1m-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0"/>
+</svg></a>
+    </li>
+              
+              
+            <li class="list-group-item">
+                
+<!-- Languages -->
+           
+        <h6 class="card-title text-start mt-2">Languages</h6>
+            <div class="language-skill">
+              <label class="card-subtitle text-start mt-3">Kazakh (Native)</label>
+              <div class="progress">
+                <div class="progress-bar" data-width="100%"></div>
+              </div>
+
+              <label class="card-subtitle text-start mt-3">Russian (Bilingual)</label>
+              <div class="progress mb-2">
+                <div class="progress-bar" data-width="100%"></div>
+              </div>
+
+              <label class="card-subtitle text-start mt-3">English</label>
+              <div class="progress mb-2">
+                <div class="progress-bar" data-width="85%"></div>
+              </div>
+
+              <label class="card-subtitle text-start mt-3">Turkish</label>
+              <div class="progress mb-2">
+                <div class="progress-bar" data-width="85%"></div>
+              </div>
+
+              <label class="card-subtitle text-start mt-3">French</label>
+              <div class="progress mb-2">
+                <div class="progress-bar" data-width="55%"></div>
+              </div>
+
+              <label class="card-subtitle text-start mt-3">German</label>
+              <div class="progress mb-2">
+                <div class="progress-bar" data-width="50%"></div>
+              </div>
+
+              <label class="card-subtitle text-start mt-3">Italian</label>
+              <div class="progress mb-2">
+                <div class="progress-bar" data-width="40%"></div>
+              </div>
+
+              <label class="card-subtitle text-start mt-3">Japanese</label>
+              <div class="progress mb-2">
+                <div class="progress-bar" data-width="20%"></div>
+              </div>
+
+              <label class="card-subtitle text-start mt-3">Swedish</label>
+              <div class="progress mb-2">
+                <div class="progress-bar" data-width="20%"></div>
+              </div>
+            </div>
+
+            </li>
+          </ul>
+          <div class="card-body">
+<h5 class="mt-2 mb-2 text-primary fw-bold">🛠️ Tools & Technologies</h5>
+<section class="container my-3">
+
+  <!-- COLLAPSIBLE TOOL CATEGORIES -->
+  <div class="accordion" id="toolsAccordion">
+
+    <!-- Category 1: Data & Analytics -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseData" aria-expanded="true">
+          📊 Finance Data & Analytics Tools
+        </button>
+      </h2>
+      <div id="collapseData" class="accordion-collapse collapse show" data-bs-parent="#toolsAccordion">
+        <div class="accordion-body d-flex flex-wrap gap-4 justify-content-center">
+          <img src="assets/Excel.png" alt="Excel" width="50" data-bs-toggle="tooltip" title="Excel (VBA, Power Query)">
+          <img src="assets/New_Power_BI_Logo.svg.png" alt="Power BI" width="50" data-bs-toggle="tooltip" title="Power BI">
+          <img src="https://cdn.simpleicons.org/python/1e3a8a" alt="Python" width="50" data-bs-toggle="tooltip" title="Python">
+          <img src="https://cdn.simpleicons.org/r/1e3a8a" alt="R" width="50" data-bs-toggle="tooltip" title="R Language">
+          <img src="assets/stata.svg" alt="STATA" width="50" data-bs-toggle="tooltip" title="Stata">
+          <img src="https://cdn.simpleicons.org/googlesheets/1e3a8a" alt="Google Sheets" width="50" data-bs-toggle="tooltip" title="Google Sheets">
+        </div>
+      </div>
+    </div>
+
+     <!-- Category 2: Accounting & Finance -->
+
+          <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFinance" aria-expanded="true">
+          📊 Accounting & Finance (Banking) Tools
+        </button>
+      </h2>
+      <div id="collapseFinance" class="accordion-collapse collapse show" data-bs-parent="#toolsAccordion">
+        <div class="accordion-body d-flex flex-wrap gap-4 justify-content-center">
+          <img src="assets/1c.png" alt="1C" width="70" data-bs-toggle="tooltip" title="1C">
+          <img src="assets/2945134.webp" alt="SAP" width="70" data-bs-toggle="tooltip" title="SAP">
+          <img src="assets/unnamed.png" alt="Bloomberg Terminal" width="50" data-bs-toggle="tooltip" title="Bloomberg Terminal">
+          <img src="assets/unnamed%20(1).png" alt="Refinitiv Eikon" width="50" data-bs-toggle="tooltip" title="Refinitiv Eikon">
+          <img src="assets/TemenosNewLogo.png" alt="Temenos" width="100" data-bs-toggle="tooltip" title="Temenos">
+        </div>
+      </div>
+    </div>
+
+      
+    <!-- Category 3: Office & Productivity -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOffice" aria-expanded="true">
+          🧮 Office & Productivity
+        </button>
+      </h2>
+      <div id="collapseOffice" class="accordion-collapse collapse show" data-bs-parent="#toolsAccordion">
+        <div class="accordion-body d-flex flex-wrap gap-4 justify-content-center">
+          <img src="assets/office.png" alt="Office 365" width="50" data-bs-toggle="tooltip" title="Office 365">
+          <img src="assets/microsoft-access-logo.png" alt="Access" width="50" data-bs-toggle="tooltip" title="Microsoft Access">
+          <img src="assets/teams.png" alt="Teams" width="50" data-bs-toggle="tooltip" title="Microsoft Teams">
+          <img src="assets/sharepoint.png" alt="SharePoint" width="50" data-bs-toggle="tooltip" title="SharePoint">
+          <img src="assets/powerautomate.png" alt="Power Automate" width="50" data-bs-toggle="tooltip" title="Power Automate">
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 4: Web & Development -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDev" aria-expanded="true">
+          💻 Web & Development
+        </button>
+      </h2>
+      <div id="collapseDev" class="accordion-collapse collapse show" data-bs-parent="#toolsAccordion">
+        <div class="accordion-body d-flex flex-wrap gap-4 justify-content-center">
+          <img src="https://cdn.simpleicons.org/html5/1e3a8a" alt="HTML" width="50" data-bs-toggle="tooltip" title="HTML5">
+          <img src="assets/css.png" alt="CSS" width="45" data-bs-toggle="tooltip" title="CSS">
+          <img src="https://cdn.simpleicons.org/javascript/1e3a8a" alt="JavaScript" width="50" data-bs-toggle="tooltip" title="JavaScript">
+          <img src="https://cdn.simpleicons.org/bootstrap/1e3a8a" alt="Bootstrap" width="50" data-bs-toggle="tooltip" title="Bootstrap">
+          <img src="https://cdn.simpleicons.org/github/1e3a8a" alt="GitHub" width="50" data-bs-toggle="tooltip" title="GitHub">
+          <img src="assets/vscode.png" alt="VS Code" width="50" data-bs-toggle="tooltip" title="VS Code">
+          <img src="assets/chatgpt.png" alt="ChatGPT" width="50" data-bs-toggle="tooltip" title="ChatGPT">
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 5: Project, Cloud & Communication -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCloud" aria-expanded="true">
+          ☁️ Project & Cloud Tools
+        </button>
+      </h2>
+      <div id="collapseCloud" class="accordion-collapse collapse show" data-bs-parent="#toolsAccordion">
+        <div class="accordion-body d-flex flex-wrap gap-4 justify-content-center">
+          <img src="https://cdn.simpleicons.org/trello/1e3a8a" alt="Trello" width="50" data-bs-toggle="tooltip" title="Trello">
+          <img src="https://cdn.simpleicons.org/googledrive/1e3a8a" alt="Google Drive" width="50" data-bs-toggle="tooltip" title="Google Drive">
+          <img src="https://cdn.simpleicons.org/dropbox/1e3a8a" alt="Dropbox" width="50" data-bs-toggle="tooltip" title="Dropbox">
+          <img src="https://cdn.simpleicons.org/zoom/1e3a8a" alt="Zoom" width="50" data-bs-toggle="tooltip" title="Zoom">
+          <img src="assets/teamviewer.png" alt="TeamViewer" width="50" data-bs-toggle="tooltip" title="TeamViewer">
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 6: Marketing & Insights -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMarketing" aria-expanded="true">
+          📈 Marketing & Insights
+        </button>
+      </h2>
+      <div id="collapseMarketing" class="accordion-collapse collapse show" data-bs-parent="#toolsAccordion">
+        <div class="accordion-body d-flex flex-wrap gap-4 justify-content-center">
+          <img src="https://cdn.simpleicons.org/googleanalytics/1e3a8a" alt="Google Analytics" width="50" data-bs-toggle="tooltip" title="Google Analytics">
+          <img src="https://cdn.simpleicons.org/googleadsense/1e3a8a" alt="AdSense" width="50" data-bs-toggle="tooltip" title="Google AdSense">
+          <img src="assets/google-my-business.png" alt="Google My Business" width="50" data-bs-toggle="tooltip" title="Google My Business">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+img[data-bs-toggle="tooltip"] {
+  transition: transform 0.3s ease;
+}
+img[data-bs-toggle="tooltip"]:hover {
+  transform: scale(1.2);
+}
+</style>
+
+          </div>
+        </div>  
+    </aside>
+      
+<!-- Main container -->
+      
+    <main class="main">
+
+<!-- Card 1 -->   
+        
+<div class="card text-center shadow">    
+    <nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Education</button>
+    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Certifications</button>
+    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Core Competences & Skills</button>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"><div class="card-body">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      
+      <!-- Card 2 -->
+      <div class="col">
+          <a href="https://www.ohu.edu.tr/" class="text-decoration-none" target="_blank">
+        <div class="card h-100 shadow edu-card">
+          <img src="assets/nigde_university_logo.png" class="card-img-top logo-img-nu" alt="Nigde University Logo">
+          <div class="card-body">
+            <h6 class="card-title text-start">PhD in Accounting & Finance </h6>
+            <p class="card-text text-start">Nigde Omer Halisdemir University</p>
+            <p class="summary text-start">Thesis: Financial Effects of Withdrawal From Economic Unions : The Case of Brexit</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Feb 2017 - Mar 2024</small>
+          </div>
+        </div>
+          </a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col">
+        <a href="https://www.ohu.edu.tr/" class="text-decoration-none" target="_blank">
+        <div class="card h-100 shadow edu-card">
+          <img src="assets/nigde_university_logo.png" class="card-img-top logo-img-nu" alt="Nigde University Logo">
+          <div class="card-body">
+            <h6 class="card-title text-start">Master’s in Economics (Quantitative Economics)</h6>
+            <p class="card-text text-start">Nigde Omer Halisdemir University</p>
+            <p class="summary text-start">Thesis: "Kazakistan'da Enerji, Finans ve Büyüme İlişkisi Üzerine Ampirik Analiz (1994-2013)"</p>
+            <p class="summary text-start">GPA: 3.72/4 (Magna Cum Laude)</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Sep 2013 - Oct 2016</small>
+          </div>
+        </div>
+          </a>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col">
+       <a href="https://www.kimep.kz/en/" class="text-decoration-none" target="_blank">
+        <div class="card h-100 shadow edu-card">
+          <img src="assets/kimep-logo.png" class="card-img-top logo-img" alt="KIMEP University Logo">
+          <div class="card-body">
+            <h6 class="card-title text-start">Bachelor’s in Business Economics</h6>
+            <p class="card-text text-start">KIMEP University</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Aug 2009 - Jun 2013</small>
+          </div>
+        </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+    </div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0"><div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Finance, Accounting & Risk Management</button>
+    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Financial Modeling & Valuation</button>
+    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Data Analytics & BI</button>
+    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Programming, Automation & Data Science</button>
+    <button class="nav-link" id="v-pills-language-tab" data-bs-toggle="pill" data-bs-target="#v-pills-language" type="button" role="tab" aria-controls="v-pills-language" aria-selected="false">Language & Cultural Certifications (Optional but Differentiating)</button>
+
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0"><img src="assets/How-to-Put-CFA-on-Resume-1.jpg" alt="CFA Level I" width="300" data-bs-toggle="tooltip" title="CFA Level I"></div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0"><img src="assets/imagen-cfi-4.jpg" alt="FMVA" width="300" data-bs-toggle="tooltip" title="FMVA"></div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0"><img src="assets/1719833272615.jpg" alt="Python in Finance" width="300" data-bs-toggle="tooltip" title="Python in Finance"></div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><img src="assets/1695770851195.jpg" alt="Python in Finance" width="300" data-bs-toggle="tooltip" title="Python in Finance"></div>
+    <div class="tab-pane fade" id="v-pills-language" role="tabpanel" aria-labelledby="v-pills-language-tab" tabindex="0"><img src="assets/unnamed.jpg" alt="DALF" width="300" data-bs-toggle="tooltip" title="DALF"></div>
+  </div>
+</div></div>
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0"><div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-CF-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CF" type="button" role="tab" aria-controls="v-pills-CF" aria-selected="true">Corporate Finance</button>
+    <button class="nav-link" id="v-pills-PB-tab" data-bs-toggle="pill" data-bs-target="#v-pills-PB" type="button" role="tab" aria-controls="v-pills-PB" aria-selected="false">Private Banking</button>
+    <button class="nav-link" id="v-pills-TS-tab" data-bs-toggle="pill" data-bs-target="#v-pills-TS" type="button" role="tab" aria-controls="v-pills-TS" aria-selected="false">Technical Skills</button>
+    <button class="nav-link" id="v-pills-RM-tab" data-bs-toggle="pill" data-bs-target="#v-pills-RM" type="button" role="tab" aria-controls="v-pills-RM" aria-selected="false">Risk Management</button>
+    <button class="nav-link" id="v-pills-PO-tab" data-bs-toggle="pill" data-bs-target="#v-pills-PO" type="button" role="tab" aria-controls="v-pills-PO" aria-selected="false">Process Optimization</button>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-CF" role="tabpanel" aria-labelledby="v-pills-CF-tab" tabindex="0"><p><button type="button" class="btn btn-outline-dark">FP&A</button><button type="button" class="btn btn-outline-dark">Financial Modeling</button><button type="button" class="btn btn-outline-dark">IFRS/IAS Reporting</button><button type="button" class="btn btn-outline-dark">Forecasting</button><button type="button" class="btn btn-outline-dark">M&A</button></p>
+        <button type="button" class="btn btn-outline-dark">Managing budgets or finances</button>
+        <button type="button" class="btn btn-outline-dark">Preparing financial documents, records, reports, or budgets</button>
+        <button type="button" class="btn btn-outline-dark">Analysing financial and economic data</button>
+        <button type="button" class="btn btn-outline-dark">Providing financial advice</button>
+        <button type="button" class="btn btn-outline-dark">Developing financial, business or marketing plans</button>
+        <button type="button" class="btn btn-outline-dark">Performing financial calculations</button>
+        <button type="button" class="btn btn-outline-dark">Performing risk analysis and management</button>
+        <button type="button" class="btn btn-outline-dark">Ensuring compliance with legislation</button>
+      </div>
+      <div class="tab-pane fade" id="v-pills-PB" role="tabpanel" aria-labelledby="v-pills-PB-tab" tabindex="0"><p><button type="button" class="btn btn-outline-dark">Client Advisory</button><button type="button" class="btn btn-outline-dark">Wealth Management</button><button type="button" class="btn btn-outline-dark">Tax Optimization</button></p>
+      <button type="button" class="btn btn-outline-dark">Providing financial advice</button>
+      <button type="button" class="btn btn-outline-dark">Collaborating and liaising</button>
+      <button type="button" class="btn btn-outline-dark">Developing professional relationships or networks</button>
+      <button type="button" class="btn btn-outline-dark">Organising, planning and scheduling work and activities</button>
+      </div>
+
+      <div class="tab-pane fade" id="v-pills-TS" role="tabpanel" aria-labelledby="v-pills-TS-tab" tabindex="0"><p><button type="button" class="btn btn-outline-dark">Python</button><button type="button" class="btn btn-outline-dark">Power BI</button><button type="button" class="btn btn-outline-dark">Excel VBA</button><button type="button" class="btn btn-outline-dark">Excel Power Query</button><button type="button" class="btn btn-outline-dark">ERP software - 1C</button></p>
+        <button type="button" class="btn btn-outline-dark">Performing calculations</button>
+        <button type="button" class="btn btn-outline-dark">Analysing financial and economic data</button>
+        <button type="button" class="btn btn-outline-dark">Preparing financial dashboards</button>
+        <button type="button" class="btn btn-outline-dark">Supporting data-based decision-making (via tools like Excel, Python, Power BI)</button>
+      </div>
+      <div class="tab-pane fade" id="v-pills-RM" role="tabpanel" aria-labelledby="v-pills-RM-tab" tabindex="0"><p><button type="button" class="btn btn-outline-dark">Market & Credit Risk Analysis</button><button type="button" class="btn btn-outline-dark">Risk Modeling (Stata, EViews)</button></p> 
+        <button type="button" class="btn btn-outline-dark">Managing budgets or finances</button>
+        <button type="button" class="btn btn-outline-dark">Preparing financial documents, records, reports, or budgets</button>
+        <button type="button" class="btn btn-outline-dark">Analysing financial and economic data</button>
+        <button type="button" class="btn btn-outline-dark">Providing financial advice</button>
+        <button type="button" class="btn btn-outline-dark">Developing financial, business or marketing plans</button>
+        <button type="button" class="btn btn-outline-dark">Performing financial calculations</button>
+        <button type="button" class="btn btn-outline-dark">Performing risk analysis and management</button>
+        <button type="button" class="btn btn-outline-dark">Ensuring compliance with legislation</button>
+      </div>
+      <div class="tab-pane fade" id="v-pills-PO" role="tabpanel" aria-labelledby="v-pills-PO-tab" tabindex="0"><p><button type="button" class="btn btn-outline-dark">Robotic Process Automation (RPA)</button><button type="button" class="btn btn-outline-dark">Error Minimization</button></p>
+        <button type="button" class="btn btn-outline-dark">Directing operational activities</button>
+        <button type="button" class="btn btn-outline-dark">Monitoring operational activities</button>
+        <button type="button" class="btn btn-outline-dark">Organising and scheduling tasks</button>
+        <button type="button" class="btn btn-outline-dark">Designing or automating reporting tools</button>
+        <button type="button" class="btn btn-outline-dark">Streamlining internal processes</button>       
+      </div>
+  </div>
+</div></div>
+</div>
+    
+    
+    
+  
+    
+<!-- Card 2 -->  
+    
+
+  <!-- Inner padding ends -->
+</div>
+
+        
+<!-- Card Key Figures -->        
+        
+    <div class="card mt-3 mb-3 shadow">
+  <div class="card-body">
+    <h5 class="card-title">Key Figures</h5>
+      <div class="profile-summary mt-4">
+  <h6 class="fw-bold mb-3">Profile</h6>
+  <ul class="list-unstyled mb-4">
+    <li class="mb-2 fade-item" style="--delay: 0s;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#1166c2" class="bi bi-briefcase-fill m-2 button-icon" viewBox="0 0 16 16" alt="briefcase" class="me-2 fade-item" style="--delay: 0.2s;">
+  <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5"/>
+  <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z"/>
+</svg>
+      9 years and 9 months of Work Experience
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#1166c2" class="bi bi-gear-fill m-2 button-icon" viewBox="0 0 16 16" class="me-2 fade-item" style="--delay: 0.4s;">
+  <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+</svg>
+      6 Work experience(s)
+    </li>
+    <li class="mb-2">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#1166c2" class="bi bi-tools-fill m-2 button-icon" viewBox="0 0 16 16" alt="graduation" fill="currentColor" class="me-2 fade-item" style="--delay: 0.6s;">
+  <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
+</svg>
+      14 years and 1 month spent in education and training
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#1166c2" class="bi bi-people-fill m-2 button-icon" viewBox="0 0 16 16" alt="language" class="me-2 fade-item" style="--delay: 0.8s;">
+  <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+</svg>
+      9 Language(s)
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#1166c2" class="bi bi-lightbulb-fill m-2 button-icon" viewBox="0 0 16 16" alt="skills" class="me-2 fade-item" style="--delay: 1s;">
+  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+</svg>
+      66 Skills
+    </li>
+  </ul>
+
+</div>
+
+  </div>
+</div>
+       
+<!-- Card Timeline -->   
+        
+<div class="card mb-3 shadow">
+  <div class="card-body">
+    <h5 class="card-title">Experience</h5>
+<section class="timeline-section">
+  <div class="timeline-container">
+    <div class="timeline">
+
+<!-- Item 1 -->
+        
+      <div class="timeline-item expandable">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">October 2023 – September 2024</div>
+        <div class="timeline-content">
+          <h3>Grant Thornton (Kazakhstan)</h3>
+          <p>Accounting & Tax Compliance Consultant</p>
+          <div class="timeline-extra">
+            <strong>Responsibilities:</strong>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Responsibilities
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+          <li>provided accounting and tax compliance services to local and international clients</li>
+          <li>prepared and submitted tax returns (VAT, CIT, PIT, WHT) in accordance with local legislation</li>
+          <li>managed outsourced banking operations for international clients</li>
+          <li>ensured timely financial reporting and compliance with IFRS and local GAAP</li>
+          <li>collaborated with audit teams and supported tax audits</li>
+          <li>advised clients on internal controls, payroll, and financial regulations</li>
+          <li>used accounting software (1C) to maintain accurate records</li>
+          <li>trained junior staff and contributed to knowledge sharing within the team</li>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Key Contributions
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+          <li>Advised and managed the end-to-end accounting processes for 10+ foreign firms on Kazakh tax compliance, aligning with IFRS/IAS reducing liabilities by 16% through optimized strategies.</li>
+          <li>Streamlined internal workflows by designing and implementing an Office 365 automation tools, reduced manual paperwork by 40%, saving 20+ hours.</li>
+          <li>Developed Python and Excel VBA scripts to automate data aggregation from multiple sources, minimizing human error and accelerating month-end reporting.</li>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+
+<!-- Item 2 -->
+        
+      <div class="timeline-item expandable">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">June 2019 – August 2022</div>
+        <div class="timeline-content">
+          <h3>TEOS Industries Ltd (Turkey)</h3>
+          <p> Co-founder & Managing Partner</p>
+            
+            
+          <div class="timeline-extra">
+            <strong>Responsibilities:</strong>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Responsibilities
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <li>co-founded and managed operations of a company exporting industrial minerals (calcite, dolomite, barite)</li>
+        <li>led business development and established partnerships in international markets</li>
+        <li>oversaw finance, logistics, supplier relations, and client contracts</li>
+        <li>ensured compliance with customs regulations and export documentation</li>
+        <li>supervised accounting, budgeting, and banking operations</li>
+        <li>managed a small team and developed internal processes for efficiency</li>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Key Contributions
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+          <li>Negotiated $1.2M+ export contracts with European/Latin American, African and South-East Asian clients.</li>
+          <li>Optimized logistics for mineral exports (calcite/dolomite/quartz/barite/talc/kaolin), ensuring compliance with international trade and chemicals regulations.</li>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>            
+        </div>
+      </div>
+
+<!-- Item 3 -->
+        
+      <div class="timeline-item expandable">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">September 2019 – December 2019</div>
+        <div class="timeline-content">
+          <h3>Team Physiologic GmbH (Germany)</h3>
+          <p>Financial Management Intern (ERASMUS)</p>
+            
+            
+<div class="timeline-extra">
+            <strong>Responsibilities:</strong>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Responsibilities
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+              <li>supported monthly reporting, budgeting, and cost analysis</li>
+              <li>assisted in invoicing and financial record keeping</li>
+              <li>prepared internal Excel-based financial summaries and dashboards</li>
+              <li>contributed to optimization of financial workflows</li>
+              <li>worked in an international environment and enhanced intercultural communication skills</li>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Key Contributions
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+              <li>Developed cost-saving financial models for healthcare subsidiaries of the clinic (2 locations), improving margins by 12% under HGB standards.</li>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>     
+        </div>
+      </div>
+        
+<!-- Item 4 -->
+        
+    <div class="timeline-item expandable">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">November 2016 – August 2018</div>
+        <div class="timeline-content">
+          <h3>Avrasya Mikronize AS (Turkey)</h3>
+          <p>Export / International Sales Manager</p>
+            
+<div class="timeline-extra">
+            <strong>Responsibilities:</strong>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Responsibilities
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+              <li>managed international sales of industrial minerals to Europe, Asia, and the Middle East</li>
+              <li>negotiated contracts and coordinated logistics with overseas clients</li>
+              <li>conducted market research and developed pricing strategies</li>
+              <li>prepared export documentation and ensured compliance with trade regulations</li>
+              <li>maintained long-term relationships with international partners and distributors</li>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Key Contributions
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+            <li>Expanded international client base, securing contracts across Europe, Latin America, Asia, and the Middle East, contributing to a 21% increase in annual export revenue.
+            <li>Improved pricing strategy through competitive benchmarking and market research, increasing deal conversion rates by 18%.</li>
+            <li>Reduced export documentation errors by 30% by standardizing procedures and training cross-functional teams on compliance requirements.</li>
+            <li>Built long-term relationships with overseas distributors, resulting in repeat contracts and higher client retention.</li>
+            <li>Optimized logistics coordination, cutting average delivery time by 18%, improving customer satisfaction across key markets.</li>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>               
+        </div>
+      </div>
+        
+<!-- Item 5 -->
+        
+    <div class="timeline-item expandable">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">June 2015 – September 2015</div>
+        <div class="timeline-content">
+          <h3>Studio Commercialista Silvano Carluccio (Italy)</h3>
+          <p>Accounting and Tax Compliance Auditor (ERASMUS Internship)</p>
+            
+            
+<div class="timeline-extra">
+            <strong>Responsibilities:</strong>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Responsibilities
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+              <li>assisted with preparation of tax returns and financial reports under Italian GAAP</li>
+              <li>supported external audits and reconciliation tasks</li>
+              <li>participated in internal control evaluations and compliance checks</li>
+              <li>collaborated with senior auditors on SME client engagements</li>
+              <li>developed understanding of Italian tax law and reporting standards</li>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Key Contributions
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+              <li>Collaborated with teams to streamline local SMEs audits, resulting in 14% faster reporting and tax compliance.</li>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>                 
+        </div>
+      </div>
+
+<!-- Item 6 -->
+        
+    <div class="timeline-item expandable">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">November 2012 – May 2013</div>
+        <div class="timeline-content">
+          <h3>National Bank of Kazakhstan</h3>
+          <p>Analyst of Monetary Operations (Internship) & Broker-Dealer</p>
+            
+            
+<div class="timeline-extra">
+            <strong>Responsibilities:</strong>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Responsibilities
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+              <li>assisted in execution and analysis of open market operations and monetary instruments</li>
+              <li>supported liquidity management and prepared internal market reports</li>
+              <li>gained exposure to SWIFT communication and platforms like Temenos, Bloomberg HT, Reuters Eikon</li>
+              <li>participated in settlement of central bank securities and interbank operations</li>
+              <li>collaborated with analysts and dealers on monetary policy support tasks</li>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>               
+        </div>
+      </div>
+        
+    </div>
+  </div>
+</section>
+
+
+  </div>
+</div>
+
+<!-- Publications -->
+
+      <section class="opportunities mt-3">
+        <h3 class="mb-3">Publications</h3>
+        <div id="courseCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card p-3" href="https://ssrn.com/abstract=4993786">
+                <h5>FINANCIAL IMPACTS OF BREXIT ON THE UNITED KINGDOM</h5>
+                <p class="mb-0"><small>SSRN Journal| International Economics</small></p>
+                <p class="text-muted">08/10/2024</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card p-3">
+                <h5>Kamusal, Özel ve Yabancı Sermayeli Bankalarda Büyüme Oranlarının Karşılaştırmalı Analizi</h5>
+                <p class="mb-0"><small>Kamusal Ekonomisi</small></p>
+                <p class="text-muted">21/01/2022</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card p-3">
+                <h5>Kazakistan’da Enerji, Finans ve Büyüme İlişkisi Üzerine Ampirik Analiz (1994-2013)</h5>
+                <p class="mb-0"><small>Enerji Kaynaklari Ekonomisi</small></p>
+                <p class="text-muted">10/03/2017</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card p-3">
+                <h5>Customs Union within the Eurasian Economic Community (EurAsEC): Common Currency and Perspectives and Limitations in Common Monetary Policy.</h5>
+                <p class="mb-0"><small>Enerji Kaynaklari Ekonomisi</small></p>
+                <p class="text-muted">10/05/2015</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#courseCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#courseCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </section>
+
+
+    </main>
+  </div>
+    <footer class="footer mt-5 py-4 bg-light border-top">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+
+      <!-- Left: Name & Copyright -->
+      <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+        <strong>Madina Suleimenova-Peleman</strong><br>
+        © 2025 All rights reserved
+      </div>
+
+      <!-- Center: Links -->
+      <div class="col-md-4 d-flex justify-content-center flex-wrap gap-3 text-muted small">
+        <a href="#" class="footer-link">About</a>
+        <a href="#" class="footer-link">Privacy</a>
+        <a href="#" class="footer-link">Terms</a>
+        <a href="#" class="footer-link">Contact</a>
+      </div>
+
+      <!-- Right: Language & Social -->
+      <div class="col-md-4 text-center text-md-end">
+        <div class="mb-2">
+          <select class="form-select d-inline w-auto me-2" style="font-size: 0.9rem;">
+            <option selected>English</option>
+            <option>French</option>
+            <option>German</option>
+            <option>Russian</option>
+          </select>
+          <select class="form-select d-inline w-auto" style="font-size: 0.9rem;">
+            <option selected>€ EUR</option>
+            <option>$ USD</option>
+            <option>₸ KZT</option>
+          </select>
+        </div>
+        <div class="footer-icons mt-2">
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="me-2">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://wa.me/33666045029" target="_blank" class="me-2">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a href="https://github.com/yourprofile" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+    
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const progressBars = document.querySelectorAll(".progress-bar");
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const bar = entry.target;
+          const targetWidth = bar.getAttribute("data-width");
+          bar.style.width = targetWidth;
+          observer.unobserve(bar); // animate only once
+        }
+      });
+    }, { threshold: 0.3 });
+
+    progressBars.forEach(bar => {
+      observer.observe(bar);
+    });
+  });
+</script>
+
+    
+<script>
+  const items = document.querySelectorAll(".timeline-item");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      entry.target.classList.toggle("show", entry.isIntersecting);
+    });
+  });
+
+  items.forEach(item => {
+    observer.observe(item);
+
+    item.addEventListener("click", (e) => {
+      // Prevent toggle if click was inside the accordion controls
+      if (e.target.closest(".accordion-button") || e.target.closest(".accordion-collapse")) {
+        return;
+      }
+
+      // Toggle the clicked item only
+      item.classList.toggle("active");
+    });
+  });
+</script>
+
+
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+  tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el));
+</script>
+
+
+
+    
+  <!-- Bootstrap 5 JS Bundle -->
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
